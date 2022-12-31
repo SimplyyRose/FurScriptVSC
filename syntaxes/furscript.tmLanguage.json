@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "furscript",
+	"patterns": [
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"match": "\\b(fur|sniff|bop)\\b",
+					"name": "keyword.control.flow.python"
+				},
+				{
+					"match": "\\b(ono|owo)\\b",
+					"name": "storage.modifier.java"
+				},
+				{
+					"match": "\\b(equaws)\\b",
+					"name": "keyword.operator.assignment"
+				},
+				{
+					"match": "\\b(~)\\b",
+					"name": "punctuation.terminator.java"
+				},
+				{
+					"match": "\\b(\\d+)\\b",
+					"name": "constant.numeric"
+				},
+				{
+					"match": "\\b(true|false)\\b",
+					"name": "constant.language"
+				},
+				{
+					"match": "\\b(\\w+)\\b",
+					"name": "variable.other"
+				}
+			]
+		}
+	},
+	"scopeName": "source.fur"
+}

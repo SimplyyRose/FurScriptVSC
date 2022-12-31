@@ -1,0 +1,25 @@
+{
+    "name": "furscript",
+    "displayName": "FurScript",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "furscript",
+            "aliases": ["furscript", "FurScript"],
+            "extensions": [".fur"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "furscript",
+            "scopeName": "source.fur",
+            "path": "./syntaxes/furscript.tmLanguage.json"
+        }]
+    }
+}
