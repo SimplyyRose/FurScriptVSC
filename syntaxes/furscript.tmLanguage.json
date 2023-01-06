@@ -10,7 +10,7 @@
 		"keywords": {
 			"patterns": [
 				{
-					"match": "\\b(fur|sniff|bop)\\b",
+					"match": "\\b(fur|sniff|bop|mew)\\b",
 					"name": "keyword.control.flow.python"
 				},
 				{
